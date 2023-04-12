@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    padding-left: 29%;
+    padding-top: 10%;
+}
+
+.board{
+    border: 2pt solid red;
+    background-color: #e2cba3;
+    display: grid;
+    height: 40vh;
+    width: 40%;
+    justify-items: center;
+    padding-top: 3%;
+}
+
+.board p{
+    color: red;
+    font-weight:900;
+    width:fit-content;
+    font-size: 30px;
+    top: 20%;
+    left: 33%;
+}
+
+.board h1{
+    /* border: 2pt solid blue; */
+    color: red;
+    font-weight:900;
+    position: absolute;
+    width:25%;
+    height: 20%;
+    font-size: 30px;
+    top: 40%;
+    left: 31%;
+    text-align: center;
+}

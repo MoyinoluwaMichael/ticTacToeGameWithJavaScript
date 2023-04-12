@@ -1,0 +1,21 @@
+{
+    "name": "week1",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.4.1"
+    },
+    "dependencies": {
+      "prompt-async": "^0.9.9",
+      "prompt-sync": "^4.2.0"
+    }
+  }
+  

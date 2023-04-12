@@ -1,0 +1,41 @@
+.mainContainer{
+    border: 2pt solid red;
+    background-color: black;
+    display: flex;
+    padding-top: 7%;
+    height: 82.5vh;
+    gap: 0%;
+}
+
+.mainContainer h1{
+    /* border: 2pt solid white; */
+    color: white;
+    width: 25%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 15%
+}
+
+.board{
+    border: 2pt solid red;
+    background-color: #e2cba3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 73vh;
+    width: 60%;
+}
+
+.board div{
+    border: 3pt solid red;
+    color: blue;
+    height: 1.3em;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.board div:hover{
+    border: 3.5pt solid rgb(236, 233, 233);
+}

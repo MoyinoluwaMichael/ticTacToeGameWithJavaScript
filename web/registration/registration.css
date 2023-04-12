@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    padding-left: 29%;
+    padding-top: 10%;
+}
+
+.board{
+    border: 2pt solid red;
+    background-color: #e2cba3;
+    display: grid;
+    height: 40vh;
+    width: 40%;
+}
+
+.board p{
+    color: red;
+    font-weight:900;
+    width:fit-content;
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+}
+
+.inputsCont{
+    /* border: 2pt solid red; */
+    display: flex;
+    height: 37px;
+    position: absolute;
+    gap: 5%;
+    top: 35%;
+    width: 27.7%;
+    justify-content: center;
+}
+
+.register{
+    /* border: 2pt solid red; */
+    height: 20pt;
+    width: 60pt;
+    position: absolute;
+    top: 45%;
+    left: 41%;
+}
+
+.register:hover{
+    /* border: 2pt solid red; */
+    background-color: rgb(41, 40, 40);
+    color: white;
+    height: 20pt;
+    width: 60pt;
+    position: absolute;
+    top: 45%;
+    left: 41%;
+}
+
+.register:active{
+    /* border: 2pt solid red; */
+    background-color: white;
+    color: black;
+    height: 20pt;
+    width: 60pt;
+    position: absolute;
+    top: 45%;
+    left: 41%;
+}
+
+footer{
+    color: red;
+    position: absolute;
+    top: 57%;
+    left: 35%;
+}
